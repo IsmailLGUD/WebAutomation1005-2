@@ -16,7 +16,7 @@ public class GoogleLinks {
 	public void i_go_to_google_home_page() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
 	   
-		System.setProperty("webdriver.chrome.driver","C:/Users/ISMAIL/utilities/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./driveres/chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		driver.get("https://www.google.com");
